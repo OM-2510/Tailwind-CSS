@@ -1,6 +1,6 @@
 export default function StaffPicks(){
     return(
-        <section className="border-gray-200 border-l-1 h-screen p-9.5 text-md flex flex-col font-semibold">
+        <section className="border-gray-200 border-l-1 h p-9.5 text-md flex flex-col font-semibold">
             Recommended Topics
             <div className="max-w-75 h-auto mt-3.5">
                 <button className="bg-gray-200 m-3 mb-1 ml-0 px-4 py-2 rounded-4xl font-extralight text-sm hover: cursor-pointer">Writing</button>
