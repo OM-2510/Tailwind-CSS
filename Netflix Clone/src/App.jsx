@@ -1,6 +1,7 @@
 import Navbar from "./Components/navbar"
 import SignIn from "./Components/sign-in"
 import TrendingSection from "./Components/trending-section"
+import USP from "./Components/usp"
 
 export default function App(){
     return(       
@@ -13,9 +14,11 @@ export default function App(){
                     </div>
                 </header>
 
-                <div className="bg-black p-4 pb-10 pt-21 text-white md:px-40 ">
+                <main className="bg-black p-4 pb-10 pt-21 text-white md:px-40 ">
                     <TrendingSection />
-                </div>
+                    <USP />
+
+                </main>
 
 
             

@@ -17,7 +17,7 @@ export default function TrendingSection() {
   };
 
   return (
-    <div className="pb-40">
+    <>
       <p className="text-white pl-2 pb-6 font-medium text-[18px]">Trending Now</p>
 
       <div className="flex items-center">
@@ -57,6 +57,6 @@ export default function TrendingSection() {
         }
 
       </div>
-    </div>
+    </>
   );
 }
