@@ -1,6 +1,6 @@
 export default function USP(){
     return(
-            <div className="px-2">
+            <>
                 <p className="text-[18px] font-medium pt-16">More reasons to join</p>
                 
                 <div className="flex flex-col h-full pt-2 md:flex-row md:flex-wrap md:justify-between">
@@ -21,6 +21,6 @@ export default function USP(){
                         <p className="text-[14px] font-medium text-gray-300">Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
                     </div>
                 </div>
-            </div>
+            </>
     )
 }

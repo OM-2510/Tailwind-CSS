@@ -18,7 +18,7 @@ export default function TrendingSection() {
 
   return (
     <>
-      <p className="text-white pl-2 pb-6 font-medium text-[18px]">Trending Now</p>
+      <p className="text-white pb-6 font-medium text-[18px]">Trending Now</p>
 
       <div className="flex items-center">
 
