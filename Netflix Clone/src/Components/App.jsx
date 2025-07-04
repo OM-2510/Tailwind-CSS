@@ -37,7 +37,8 @@ export default function App(){
 
                         <div className="flex flex-col">
                             <a className="py-2 underline decoration-1" href="#">Help Centre</a>
-                            <a className="py-2 underline decoration-1" href="#">Jobs</a>
+                            <a className="py-2 underline decoration-1" href="#">Jobs</a>npm run dev
+                            
                             <a className="py-2 underline decoration-1" href="#">Cooki Preferences</a>
                             <a className="py-2 underline decoration-1" href="#">Legal Notices</a>
                         </div>
