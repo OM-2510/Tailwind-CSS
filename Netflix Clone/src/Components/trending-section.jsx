@@ -18,7 +18,7 @@ export default function TrendingSection() {
 
   return (
     <>
-      <p className="text-white pb-6 font-medium text-[18px]">Trending Now</p>
+      <p className="text-white pb-6 font-medium text-[18px] md:text-2xl md:font-semibold">Trending Now</p>
 
       <div className="flex items-center">
 
@@ -33,7 +33,7 @@ export default function TrendingSection() {
 
             <div
             ref={scrollRef}
-            className="flex overflow-x-scroll scroll gap-4 whitespace-nowrap scroll-smooth scrollbar-hide px-6"
+            className="flex overflow-x-scroll scroll gap-3 whitespace-nowrap scroll-smooth scrollbar-hide py-4"
             >
             <Cards img_src="src/assets/1.jpg" />
             <Cards img_src="src/assets/2.jpg" />

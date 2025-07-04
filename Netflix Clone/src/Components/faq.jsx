@@ -1,4 +1,4 @@
-import { PlusIcon } from "@heroicons/react/16/solid"
+import {PlusIcon} from "@heroicons/react/24/outline"
 import clsx from "clsx"
 import { useState } from "react";
 
@@ -31,17 +31,17 @@ export default function FAQ() {
     
     return (
         <>
-            <p className="text-[18px] font-semibold pt-10">Frequently Asked Questions?</p>
+            <p className="text-[18px] font-semibold pt-10 md:text-2xl md:font-semibold md:pb-3">Frequently Asked Questions?</p>
             
             {questions.map((question, index)=>(
             <a onClick={()=>{toggle(index)}}>
-                <div className="flex flex-row justify-between bg-gray-700 p-5 mt-2 text-[18px] font-normal hover:bg-gray-600 cursor-pointer">
+                <div className="flex flex-row justify-between bg-grey-800 p-5 mt-2 text-[18px] font-normal hover:bg-grey-700 cursor-pointer md:text-2xl">
                     
                     <p>{question}</p>
-                    <PlusIcon className= {clsx ("h-6 w-6", {"rotate-45": open[index]})}/>
+                    <PlusIcon className= {clsx ("h-6 w-6 md:font-extralight md:h-10 md:w-10" , {"rotate-45": open[index]})}/>
                 </div>
                 
-                {open[index] && (<div className="flex flex-row justify-between mt-0.5 bg-gray-700 p-5 pr-7 text-[18px] font-normal">
+                {open[index] && (<div className="flex flex-row justify-between mt-0.5 bg-grey-800 p-5 pr-7 text-[18px] font-normal">
                     <p className="whitespace-pre-line">{answers[index]}</p>    
                 </div>
                 )}
