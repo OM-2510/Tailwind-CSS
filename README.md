@@ -43,6 +43,9 @@ Tech
 
 Tailwind CSS, React + Vite
 
+##License
+MIT --see [LICENSE](./LICENSE) file for details
+
 
 
 
